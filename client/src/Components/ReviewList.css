@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:5%;
+    padding-bottom:5%;
+}
+.design-container{
+    max-width:800px;
+    margin: 0 auto;
+}
+.design{
+    border-bottom: 1px solid #fff;
+    padding: 20px 0;
+}
+.star{
+    padding-left:4px;
+}
+.star1{
+    padding-left:35px;
+}
+
+.design-avatar {
+    width: 25px;
+    height: 25px;
+    border-radius:30%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.design-title{
+    font-weight:bold;
+    font-size: small;
+}
+.design1-title{
+    color:#4f4d4d;
+    font-size:small;
+}
+.design-header {
+    display: flex;
+    align-items: center;
+    margin-bottom:20px;
+}
+.design-icon{
+    padding-left:700px;
+    padding-bottom:100px;
+    font-size: small;
+}
+.design-author{
+    font-weight: bold;
+    margin-bottom: 1px;
+    
+}
+.design-date{
+    color:#4f4d4d;
+    font-size:small;
+    padding-left: 15px;
+    padding-top: 17px;
+}
+.date{
+    margin-top: 2%;
+}
+.design-text{
+    font-size:small;
+    color:#343434;
+    margin-top: 10px;
+    padding-left: 42px;
+    padding-bottom: 5%;
+
+}
+.col-2{
+    padding-left:700px;
+}
+.col-1{
+    padding: 9px;
+}
+@media (max-width: 1000px) {
+    .bank{
+        display:flex;
+        margin-right:2px;
+
+    }
+    .design-container{
+        margin-left:30px;
+    }
+    .design{
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
+    .design-title{
+        font-weight:bold;
+        font-size: small;
+        margin-bottom:25px;
+        padding-right:10px;
+    }
+    .design1-title{
+        color:#4f4d4d;
+        font-size:small;
+    }
+    .design-icon{
+        padding-left:200px;
+        padding-bottom:47px;
+    }
+    .design-avatar {
+        width: 40px;
+        height: 40px;
+        border-radius:30%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .design-date{
+        color:#4f4d4d;
+        padding-left:10px;
+        padding-top:2%;
+        padding-top: 17px;
+    }
+    .design-text{
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 5%;
+    }
+    .star{
+        padding-left:3px;
+    }
+
+    .star1{
+        padding-left:50px;
+    }
+    .col-2{
+        padding-left:1px;
+    }
+    }
